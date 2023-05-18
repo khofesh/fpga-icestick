@@ -72,6 +72,20 @@ build
 apio build
 ```
 
+upload
+
+```shell
+apio upload
+```
+
+### error uploading the program
+
+thanks to `Fabian Zachs` on youtube comment section
+
+```
+Hi, I had the same issue. When you do `apio system --lsftdi`, the description doesnt match whats in the video/what apio expects. So to fix this, you need to find the apio/resources/boards.json file and change the description in there. To find this, i did: `pip3 show apio`. That gives you the "location" of apio. `cd` there and run `find . -name "boards.json"`. Edit the file's "icestick" description entry. Change it from "Lattice FTUSB Interface Cable" to "Dual RS232-HS". Then retry `apio upload`
+```
+
 # References
 
 - https://www.youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb
