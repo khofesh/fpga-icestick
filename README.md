@@ -90,3 +90,7 @@ thanks to `Fabian Zachs` on youtube comment section
 - https://yosyshq.net/yosys/about.html
 - https://wiki.archlinux.org/title/Python/Virtual_environment
 - https://appcodelabs.com/getting-started-with-lattice-icestick-using-open-source-tools-on-macos-linux
+
+## pinout
+
+<img src="./images/icestick_pinout.png" width="600" alt="pinout">
